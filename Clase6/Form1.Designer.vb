@@ -34,130 +34,140 @@ Partial Class Form1
         cboComuna = New ComboBox()
         txtCiudad = New TextBox()
         txtObservacion = New TextBox()
-        Button1 = New Button()
+        ButtonGuardar = New Button()
         GroupBox1 = New GroupBox()
         rbtnNoEspecifica = New RadioButton()
         rbtnFemenino = New RadioButton()
         rbtnMasculino = New RadioButton()
         Label4 = New Label()
+        ButtonBuscar = New Button()
         GroupBox1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(12, 20)
+        Label1.Location = New Point(14, 27)
         Label1.Name = "Label1"
-        Label1.Size = New Size(25, 15)
+        Label1.Size = New Size(31, 20)
         Label1.TabIndex = 0
         Label1.Text = "Rut"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(12, 54)
+        Label2.Location = New Point(14, 72)
         Label2.Name = "Label2"
-        Label2.Size = New Size(56, 15)
+        Label2.Size = New Size(70, 20)
         Label2.TabIndex = 1
         Label2.Text = "Nombres"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(12, 90)
+        Label3.Location = New Point(14, 120)
         Label3.Name = "Label3"
-        Label3.Size = New Size(56, 15)
+        Label3.Size = New Size(72, 20)
         Label3.TabIndex = 2
         Label3.Text = "Apellidos"
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(10, 193)
+        Label5.Location = New Point(11, 257)
         Label5.Name = "Label5"
-        Label5.Size = New Size(53, 15)
+        Label5.Size = New Size(64, 20)
         Label5.TabIndex = 4
         Label5.Text = "Comuna"
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(10, 235)
+        Label6.Location = New Point(11, 313)
         Label6.Name = "Label6"
-        Label6.Size = New Size(45, 15)
+        Label6.Size = New Size(56, 20)
         Label6.TabIndex = 5
         Label6.Text = "Ciudad"
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Location = New Point(12, 280)
+        Label7.Location = New Point(14, 373)
         Label7.Name = "Label7"
-        Label7.Size = New Size(73, 15)
+        Label7.Size = New Size(91, 20)
         Label7.TabIndex = 6
         Label7.Text = "Observacion"
         ' 
         ' txtRUT
         ' 
-        txtRUT.Location = New Point(92, 20)
+        txtRUT.Location = New Point(105, 27)
+        txtRUT.Margin = New Padding(3, 4, 3, 4)
         txtRUT.Name = "txtRUT"
-        txtRUT.Size = New Size(100, 23)
+        txtRUT.Size = New Size(114, 27)
         txtRUT.TabIndex = 7
         ' 
         ' txtNombre
         ' 
-        txtNombre.Location = New Point(92, 54)
+        txtNombre.Location = New Point(105, 72)
+        txtNombre.Margin = New Padding(3, 4, 3, 4)
         txtNombre.Name = "txtNombre"
-        txtNombre.Size = New Size(208, 23)
+        txtNombre.Size = New Size(237, 27)
         txtNombre.TabIndex = 8
         ' 
         ' txtApellido
         ' 
-        txtApellido.Location = New Point(92, 87)
+        txtApellido.Location = New Point(105, 116)
+        txtApellido.Margin = New Padding(3, 4, 3, 4)
         txtApellido.Name = "txtApellido"
-        txtApellido.Size = New Size(208, 23)
+        txtApellido.Size = New Size(237, 27)
         txtApellido.TabIndex = 9
         ' 
         ' cboComuna
         ' 
         cboComuna.FormattingEnabled = True
-        cboComuna.Location = New Point(92, 187)
+        cboComuna.Location = New Point(105, 249)
+        cboComuna.Margin = New Padding(3, 4, 3, 4)
         cboComuna.Name = "cboComuna"
-        cboComuna.Size = New Size(208, 23)
+        cboComuna.Size = New Size(237, 28)
         cboComuna.TabIndex = 12
         cboComuna.Text = "(Seleccione una Comuna)"
         ' 
         ' txtCiudad
         ' 
-        txtCiudad.Location = New Point(92, 230)
+        txtCiudad.Location = New Point(105, 307)
+        txtCiudad.Margin = New Padding(3, 4, 3, 4)
         txtCiudad.Name = "txtCiudad"
-        txtCiudad.Size = New Size(208, 23)
+        txtCiudad.Size = New Size(237, 27)
         txtCiudad.TabIndex = 13
         ' 
         ' txtObservacion
         ' 
-        txtObservacion.Location = New Point(92, 274)
+        txtObservacion.Location = New Point(105, 365)
+        txtObservacion.Margin = New Padding(3, 4, 3, 4)
         txtObservacion.Name = "txtObservacion"
-        txtObservacion.Size = New Size(208, 23)
+        txtObservacion.Size = New Size(237, 27)
         txtObservacion.TabIndex = 14
         ' 
-        ' Button1
+        ' ButtonGuardar
         ' 
-        Button1.Location = New Point(92, 319)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(115, 23)
-        Button1.TabIndex = 15
-        Button1.Text = "Guardar MySql"
-        Button1.UseVisualStyleBackColor = True
+        ButtonGuardar.Location = New Point(105, 425)
+        ButtonGuardar.Margin = New Padding(3, 4, 3, 4)
+        ButtonGuardar.Name = "ButtonGuardar"
+        ButtonGuardar.Size = New Size(131, 31)
+        ButtonGuardar.TabIndex = 15
+        ButtonGuardar.Text = "Guardar MySql"
+        ButtonGuardar.UseVisualStyleBackColor = True
         ' 
         ' GroupBox1
         ' 
         GroupBox1.Controls.Add(rbtnNoEspecifica)
         GroupBox1.Controls.Add(rbtnFemenino)
         GroupBox1.Controls.Add(rbtnMasculino)
-        GroupBox1.Location = New Point(12, 131)
+        GroupBox1.Location = New Point(14, 175)
+        GroupBox1.Margin = New Padding(3, 4, 3, 4)
         GroupBox1.Name = "GroupBox1"
-        GroupBox1.Size = New Size(299, 50)
+        GroupBox1.Padding = New Padding(3, 4, 3, 4)
+        GroupBox1.Size = New Size(342, 67)
         GroupBox1.TabIndex = 16
         GroupBox1.TabStop = False
         GroupBox1.Text = "Sexo:"
@@ -165,9 +175,10 @@ Partial Class Form1
         ' rbtnNoEspecifica
         ' 
         rbtnNoEspecifica.AutoSize = True
-        rbtnNoEspecifica.Location = New Point(181, 22)
+        rbtnNoEspecifica.Location = New Point(207, 29)
+        rbtnNoEspecifica.Margin = New Padding(3, 4, 3, 4)
         rbtnNoEspecifica.Name = "rbtnNoEspecifica"
-        rbtnNoEspecifica.Size = New Size(96, 19)
+        rbtnNoEspecifica.Size = New Size(120, 24)
         rbtnNoEspecifica.TabIndex = 19
         rbtnNoEspecifica.TabStop = True
         rbtnNoEspecifica.Text = "No especifica"
@@ -176,9 +187,10 @@ Partial Class Form1
         ' rbtnFemenino
         ' 
         rbtnFemenino.AutoSize = True
-        rbtnFemenino.Location = New Point(92, 22)
+        rbtnFemenino.Location = New Point(105, 29)
+        rbtnFemenino.Margin = New Padding(3, 4, 3, 4)
         rbtnFemenino.Name = "rbtnFemenino"
-        rbtnFemenino.Size = New Size(78, 19)
+        rbtnFemenino.Size = New Size(95, 24)
         rbtnFemenino.TabIndex = 18
         rbtnFemenino.TabStop = True
         rbtnFemenino.Text = "Femenino"
@@ -187,9 +199,10 @@ Partial Class Form1
         ' rbtnMasculino
         ' 
         rbtnMasculino.AutoSize = True
-        rbtnMasculino.Location = New Point(6, 22)
+        rbtnMasculino.Location = New Point(7, 29)
+        rbtnMasculino.Margin = New Padding(3, 4, 3, 4)
         rbtnMasculino.Name = "rbtnMasculino"
-        rbtnMasculino.Size = New Size(80, 19)
+        rbtnMasculino.Size = New Size(97, 24)
         rbtnMasculino.TabIndex = 11
         rbtnMasculino.TabStop = True
         rbtnMasculino.Text = "Masculino"
@@ -198,20 +211,30 @@ Partial Class Form1
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(198, 23)
+        Label4.Location = New Point(97, 3)
         Label4.Name = "Label4"
-        Label4.Size = New Size(107, 15)
+        Label4.Size = New Size(139, 20)
         Label4.TabIndex = 17
         Label4.Text = "Ejemplo:123456789"
         ' 
+        ' ButtonBuscar
+        ' 
+        ButtonBuscar.Location = New Point(236, 26)
+        ButtonBuscar.Name = "ButtonBuscar"
+        ButtonBuscar.Size = New Size(105, 29)
+        ButtonBuscar.TabIndex = 18
+        ButtonBuscar.Text = "Buscar"
+        ButtonBuscar.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(323, 362)
+        ClientSize = New Size(369, 483)
+        Controls.Add(ButtonBuscar)
         Controls.Add(Label4)
         Controls.Add(GroupBox1)
-        Controls.Add(Button1)
+        Controls.Add(ButtonGuardar)
         Controls.Add(txtObservacion)
         Controls.Add(txtCiudad)
         Controls.Add(cboComuna)
@@ -224,8 +247,9 @@ Partial Class Form1
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
+        Margin = New Padding(3, 4, 3, 4)
         Name = "Form1"
-        Text = "Clase 6 - MySql"
+        Text = "EVA 2 - MySql"
         GroupBox1.ResumeLayout(False)
         GroupBox1.PerformLayout()
         ResumeLayout(False)
@@ -244,11 +268,12 @@ Partial Class Form1
     Friend WithEvents cboComuna As ComboBox
     Friend WithEvents txtCiudad As TextBox
     Friend WithEvents txtObservacion As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ButtonGuardar As Button
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents rbtnNoEspecifica As RadioButton
     Friend WithEvents rbtnFemenino As RadioButton
     Friend WithEvents rbtnMasculino As RadioButton
     Friend WithEvents Label4 As Label
+    Friend WithEvents ButtonBuscar As Button
 
 End Class
