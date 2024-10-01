@@ -41,6 +41,9 @@ Partial Class Form1
         rbtnMasculino = New RadioButton()
         Label4 = New Label()
         ButtonBuscar = New Button()
+        ButtonActualizar = New Button()
+        ButtonEliminar = New Button()
+        ButtonVerUsuarios = New Button()
         GroupBox1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -150,12 +153,12 @@ Partial Class Form1
         ' 
         ' ButtonGuardar
         ' 
-        ButtonGuardar.Location = New Point(105, 425)
+        ButtonGuardar.Location = New Point(14, 425)
         ButtonGuardar.Margin = New Padding(3, 4, 3, 4)
         ButtonGuardar.Name = "ButtonGuardar"
         ButtonGuardar.Size = New Size(131, 31)
         ButtonGuardar.TabIndex = 15
-        ButtonGuardar.Text = "Guardar MySql"
+        ButtonGuardar.Text = "Guardar"
         ButtonGuardar.UseVisualStyleBackColor = True
         ' 
         ' GroupBox1
@@ -226,11 +229,41 @@ Partial Class Form1
         ButtonBuscar.Text = "Buscar"
         ButtonBuscar.UseVisualStyleBackColor = True
         ' 
+        ' ButtonActualizar
+        ' 
+        ButtonActualizar.Location = New Point(210, 427)
+        ButtonActualizar.Name = "ButtonActualizar"
+        ButtonActualizar.Size = New Size(131, 29)
+        ButtonActualizar.TabIndex = 19
+        ButtonActualizar.Text = "Actualizar"
+        ButtonActualizar.UseVisualStyleBackColor = True
+        ' 
+        ' ButtonEliminar
+        ' 
+        ButtonEliminar.Location = New Point(14, 476)
+        ButtonEliminar.Name = "ButtonEliminar"
+        ButtonEliminar.Size = New Size(131, 29)
+        ButtonEliminar.TabIndex = 20
+        ButtonEliminar.Text = "Eliminar"
+        ButtonEliminar.UseVisualStyleBackColor = True
+        ' 
+        ' ButtonVerUsuarios
+        ' 
+        ButtonVerUsuarios.Location = New Point(210, 476)
+        ButtonVerUsuarios.Name = "ButtonVerUsuarios"
+        ButtonVerUsuarios.Size = New Size(131, 29)
+        ButtonVerUsuarios.TabIndex = 21
+        ButtonVerUsuarios.Text = "Ver Datos BD"
+        ButtonVerUsuarios.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(369, 483)
+        ClientSize = New Size(353, 551)
+        Controls.Add(ButtonVerUsuarios)
+        Controls.Add(ButtonEliminar)
+        Controls.Add(ButtonActualizar)
         Controls.Add(ButtonBuscar)
         Controls.Add(Label4)
         Controls.Add(GroupBox1)
@@ -275,5 +308,8 @@ Partial Class Form1
     Friend WithEvents rbtnMasculino As RadioButton
     Friend WithEvents Label4 As Label
     Friend WithEvents ButtonBuscar As Button
+    Friend WithEvents ButtonActualizar As Button
+    Friend WithEvents ButtonEliminar As Button
+    Friend WithEvents ButtonVerUsuarios As Button
 
 End Class
